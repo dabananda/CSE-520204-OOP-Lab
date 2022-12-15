@@ -1,7 +1,7 @@
 // Dabananda Mitra, CSE (2019-20), ISTT.
 // Email: imdmitra@outlook.com
 
-// Q: Maximum between two numbers of two classes
+// Q: Write a program to find largest and smallest number between two numbers of different classes
 
 #include <iostream>
 

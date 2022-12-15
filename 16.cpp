@@ -1,40 +1,40 @@
 // Dabananda Mitra, CSE (2019-20), ISTT.
 // Email: imdmitra@outlook.com
 
-// Q: Operator(+, -, *, /) overloading
+// Q: Create a class float that contains one float number. Overload all the arithmetic operators for two objects.
 
 #include <iostream>
 
 using namespace std;
 
-class Solution {
+class Float {
   float number;
 
  public:
-  Solution() {}
-  Solution(float n) {
+  Float() {}
+  Float(float n) {
     number = n;
   }
   void Print() {
     cout << number << endl;
   }
-  Solution operator+(Solution& obj) {
-    Solution x;
+  Float operator+(Float& obj) {
+    Float x;
     x.number = this->number + obj.number;
     return x;
   }
-  Solution operator-(Solution& obj) {
-    Solution x;
+  Float operator-(Float& obj) {
+    Float x;
     x.number = this->number - obj.number;
     return x;
   }
-  Solution operator*(Solution& obj) {
-    Solution x;
+  Float operator*(Float& obj) {
+    Float x;
     x.number = this->number * obj.number;
     return x;
   }
-  Solution operator/(Solution& obj) {
-    Solution x;
+  Float operator/(Float& obj) {
+    Float x;
     x.number = this->number / obj.number;
     return x;
   }
@@ -45,7 +45,7 @@ int main() {
   cout << "Enter two numbers: ";
   cin >> x >> y;
 
-  Solution a(x), b(y), result;
+  Float a(x), b(y), result;
 
   cout << "Summation: ";
   result = a + b;
