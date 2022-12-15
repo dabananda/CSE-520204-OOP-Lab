@@ -29,7 +29,13 @@ class B {
 };
 
 void Compare(A a, B b) {
-  a.number > b.number ? cout << "Maximum is number 1: " << a.number << endl : cout << "Maximum is number 2: " << b.number << endl;
+  if (a.number > b.number) {
+    cout << "Largest number is: " << a.number << endl;
+    cout << "Smallest number is: " << b.number << endl;
+  } else {
+    cout << "Largest number is: " << b.number << endl;
+    cout << "Smallest number is: " << a.number << endl;
+  }
 }
 
 int main() {
