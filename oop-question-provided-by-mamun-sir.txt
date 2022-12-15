@@ -1,4 +1,4 @@
-1. Write a program that finds the volume of different shapes (like rectangle, cylinder, cube) using function    overloading.
+1. Write a program that finds the volume of different shapes (like rectangle, cylinder, cube) using function overloading.
 2. Write a class to represent time that includes the member function to perform the following:
 	Take input for time in hours and minutes.
 	Add two times.
