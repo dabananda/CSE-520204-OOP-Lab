@@ -34,7 +34,7 @@ TIME AddTime(TIME T1, TIME T2) {
 }
 
 void Print(TIME T) {
-  cout << "Total time: " << T.hour << "h " << T.minute << "min" << endl;
+  cout << "Total time: " << T.hour << ": " << T.minute << endl;
 }
 
 int main() {
